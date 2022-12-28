@@ -67,7 +67,7 @@ import { TokenCache } from '@azure/msal-browser/dist/cache/TokenCache';
         interactionType: InteractionType.Redirect,
         protectedResourceMap: new Map<string,Array<string | ProtectedResourceScopes> | null>([
           ['https://graph.microsoft.com/v1.0/me', ['user.read']],
-          ['https://localhost:7158/api/user/getname?name=eze',['api://82defadd-5c44-43a7-ac1a-6248b0c83e3d']
+          ['https://localhost:7158/api/user/getname?name=',['api://88dfcd7a-d08d-4b4d-8f05-163a9fbc483a/api.read']
           ],
         ]),
       }
